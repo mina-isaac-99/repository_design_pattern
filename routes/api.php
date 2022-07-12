@@ -20,7 +20,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-// API End Points
+/*
+|--------------------------------------------------------------------------
+| API End Points
+|--------------------------------------------------------------------------
+*/
 
 Route::get('orders', [OrderController::class, 'index']);
 Route::get('orders/{id}', [OrderController::class, 'show']);
