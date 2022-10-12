@@ -13,10 +13,11 @@ The Repository pattern. Repositories are classes or components that encapsulate 
 
 **Installation:** 
 
+```
 1. Clone the repo or download it.
-2. Run command `composer install`
-3. Rename or copy `.env.example` file to `.env` , change db credintials
-4. Run command `php artisan migrate --seed`
-5. Run command `php artisan serve`
-6. Check end points for ex `http://127.0.0.1:8000/api/orders`.
-
+2. Run command composer install
+3. Rename or copy .env.example file to .env , change db credintials
+4. Run command php artisan migrate --seed
+5. Run command php artisan serve
+6. Check end points for example http://127.0.0.1:8000/api/orders.
+```
